@@ -1,11 +1,11 @@
-const int trigpin=9;
-const int echopin=10;
+const int trigpin=3;
+const int echopin=A0;
 
 long duration;
 int distance;
 
-const int trigpin1=5;
-const int echopin1=6;
+const int trigpin1=9;
+const int echopin1=A1;
 
 long duration1;
 int distance1;
@@ -37,8 +37,8 @@ void loop() {
   
   duration1=pulseIn(echopin1,HIGH);
   
-  distance=duration*.03412;
-  distance1=duration1*.03412;
+  distance=duration*.034/2;
+  distance1=duration1*.034/2;
 
   Serial.print("Distance: ");
   Serial.println(distance);
