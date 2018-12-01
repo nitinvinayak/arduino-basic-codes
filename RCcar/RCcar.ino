@@ -51,7 +51,7 @@ SoftwareSerial SwSerial(10, 11); // RX, TX
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "400190a9c4da48d9bce72478b695bb85";
+char auth[] = "eef37a97f6a14a8abfc223f3f82604a7";
 
 SoftwareSerial SerialBLE(10, 11); // RX, TX
 int motorL1= 5, motorL2=3 , motorR1=9 , motorR2=6;
